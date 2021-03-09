@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html>
-<title>WebZinny | Web Development | react | python | aws | mongodb | php | java | c++</title>
+<title>WebZinny | Branding | Website development | Digital Marketing| Social media management</title>
+<meta name="keywords" content="branding, web devlopment, Digital marketing, SEO, search engine optimization, website, website banwaye">
 <meta charset="UTF-8">
-<meta name="description" content="We are one stop solution for your buisness growth. We deal in latest IT technology as well as in branding and advertisement.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="WebZinny is a one stop solution for modern businesses looking for modern solutions for their business growth. We provide all major services from website designing and development to local Branding and advertising.">
 <link rel="shortcut icon" href="imgs/favico.ico" type="image/x-icon"/>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
 <link rel="stylesheet" href="css/style.css">
 <body>
 
@@ -45,8 +50,8 @@
 <!-- Header with full-height image -->
 <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
   <div class="w3-display-left w3-text-white" style="padding:40px">
-    <span class="w3-jumbo w3-hide-small w3-animate-left">Start something that matters...</span><br>
-    <span class="w3-xxlarge w3-hide-large w3-hide-medium ">Start something that matters...</span><br>
+    <span class="w3-jumbo w3-hide-small ">Start something that matters...</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium animate__animated animate__backInDown" style="animation-duration: 5s;">Start something that matters...</span><br>
     <span class="w3-large w3-animate-left">Start your brand's innovative & creative journey with us.</span>
     <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more and start today</a></p>
   </div> 
@@ -62,13 +67,13 @@
 
 <!-- About Section -->
 <div class="w3-container" style="padding:128px 16px" id="about">
-  <h3 class="w3-center">ABOUT THE COMPANY</h3>
+  <h1 class="w3-center" style="font-size:x-large;">ABOUT THE COMPANY</h1>
   <p class="w3-center w3-large">Key features of our company</p>
   <div class="w3-row-padding w3-center" style="margin-top:64px">
     <div class="w3-quarter" style="padding-top: 10px;">
       <i class="fa fa-handshake-o w3-margin-bottom w3-jumbo w3-center"></i>
       <p class="w3-large">One Stop Solution</p>
-      <p>From local branding and advertising to digital marketing and all major IT solutions. We are the  one that leverages the best, as per the client requirements. </p>
+      <p>From local branding and advertising to web development, digital marketing and all major IT solutions. We are the  one that leverages the best, as per the client requirements. </p>
     </div>
     <div class="w3-quarter" style="padding-top: 10px;">
       <i class="fa fa-tachometer w3-margin-bottom w3-jumbo"></i>
@@ -92,7 +97,7 @@
 <div class="w3-container w3-light-grey w3-padding-64">
     <div class="w3-row-padding">
       <div class="w3-col m6">
-        <h3>Services We Offer</h3>
+        <h1 style="font-size: x-large;">Services We Offer</h1>
         <p>A successful advertising and marketing campaign is completed, when a company is able to connect with his customers, and we do this for you creatively.</p>
         <p>Also IT is now heart of any buisness, and nothing more is confusing then it, but dont worry we simplyfy it for you with innovation.</p>
         <p><a href="#contact" style="letter-spacing: 2px;" class="w3-button w3-black">Get in touch</a></p>
@@ -281,14 +286,14 @@
 <div class="w3-container" style="padding:128px 16px" id="team">
     <h3 class="w3-center">OUR BLOG</h3>
     <p  class="w3-center w3-large">Latest from us, gain extra knowledge.</p>
-    <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
-      <div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-row-padding w3-grayscale" style="margin-top:64px" >
+      <div class="w3-col l3 m6 w3-margin-bottom" >
         <div class="w3-card" style="padding-top: 5px;">
           <div class="w3-container">
-            <h3>web application</h3>
+            <h3>Web Application</h3>
             <p class="w3-opacity">by Atul Singh</p>
-            <p>A web application is a computer program that utilizes web browsers and web technology to perform...</p>
-            <p><button class="w3-button w3-light-grey w3-block">Read more</button></p>
+            <p >A web application is a computer program that utilizes web browsers and web technology to perform <span id="dots">...</span> <span id="more" style="display: none;"> mobile like tasks. Web applications are usually coded in browser-supported language such as JavaScript and HTML as these languages rely on the browser to render the program executable. Some of the applications are dynamic, requiring server-side processing. Others are completely static with no processing required at the server. The web application requires a web server to manage requests from the client, an application server to perform the tasks requested, and, sometimes, a database to store the information. Application server technology ranges from ASP.NET, ASP and ColdFusion, to PHP and JSP.</span></p>
+            <p><button class="w3-button w3-light-grey w3-block" onclick="readMore()" id="myBtn">Read more</button></p>
           </div>
         </div>
       </div>
@@ -411,9 +416,9 @@
 <footer class="w3-center w3-black w3-padding-64">
   <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
   <div class="w3-xlarge w3-section">
-    <a href="https://www.facebook.com/WebZinny-112379387571927"><i class="fa fa-facebook-official w3-hover-opacity" style="color: #0e92f3;"></i></a>
-    <a href="https://www.instagram.com/webzinny/"><i class="fa fa-instagram w3-hover-opacity" style="color: rgb(219, 36, 97);"></i></a>
-   <a href="https://www.linkedin.com/company/webzinny/"><i class="fa fa-linkedin w3-hover-opacity" style="color: cadetblue;"></i></a>
+    <a href="https://www.facebook.com/webzinny.in" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity" style="color: #0e92f3;"></i></a>
+    <a href="https://www.instagram.com/webzinny/" target="_blank"><i class="fa fa-instagram w3-hover-opacity" style="color: rgb(219, 36, 97);"></i></a>
+   <a href="https://www.linkedin.com/company/webzinny/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity" style="color: cadetblue;"></i></a>
   </div>
   <p>Powered by WebZinny.</p>
 </footer>
@@ -457,6 +462,22 @@ function carousel() {
   if (slideIndex > x.length) {slideIndex = 1}
   x[slideIndex-1].style.display = "block";
   setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+
+function readMore() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
 }
 </script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
